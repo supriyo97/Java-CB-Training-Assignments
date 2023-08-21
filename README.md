@@ -1,4 +1,5 @@
 # Java-CB-Training-Assignments
 
-This the main branch of this repository. If you want to see work got to the respective branches.
+Welcome to my Java training repository. This the main branch. If you want to see my works, please go to the respective branches.
+
 Thank you!
