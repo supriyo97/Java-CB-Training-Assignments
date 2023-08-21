@@ -1,0 +1,5 @@
+Country Name      Temperature in Degrees
+India                  93.2
+USA                  50.0
+Bhutan                  64.4
+France                  71.6
