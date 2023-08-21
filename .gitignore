@@ -1,0 +1,8 @@
+ManipulateCSVFile.java
+Operations.class
+OperationsInCSV.class
+Utility.class
+
+# .txt        # Ignores a specific file named file.txt
+# *.log           # Ignores all files with the .log extension
+# directory/      # Ignores an entire directory named directory/
