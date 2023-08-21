@@ -21,14 +21,14 @@ This branch has the solution of Assignment 1 of Java training. This application 
 ### Compiling and Running Manually
 
 1. Navigate to the directory containing the `.java` files.
-2. Compile the Java files using the following command: '''javac Utility.java OperationsInCSV.java'''
-3. Run the application using the following command: '''java OperationsInCSV'''
+2. Compile the Java files using the following command: ``` javac Utility.java OperationsInCSV.java ```
+3. Run the application using the following command: ``` java OperationsInCSV ```
 
 ### Using the JAR File
 
 1. Open a terminal or command prompt.
 2. Navigate to the directory containing the JAR file (`MyCSVApp.jar`).
-3. Run the application using the following command: '''java -jar MyCSVApp.jar'''
+3. Run the application using the following command: ``` java -jar MyCSVApp.jar ```
 
 ## Usage Instructions
 
