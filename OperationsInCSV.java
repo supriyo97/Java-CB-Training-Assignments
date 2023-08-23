@@ -76,9 +76,28 @@ class Operations {
 public class OperationsInCSV {
     public static void main(String[] args) {
         try {
+            System.out.println("Do you want to take a lead and configure input/outout path or go with the default value? (Y/N)");
+            Scanner scn = new Scanner(System.in);
+            String conf = scn.nextLine();
+            String inputFile = "";
+            String outputFile = "";
+            
+            while (!conf.equalsIgnoreCase("y") && !conf.equalsIgnoreCase("n")) {
+                System.out.println("You have to answer with Y/N. Please try again!");
+                conf = scn.nextLine();
+            }
+            
             Utility util = new Utility();
-            String inputFile = util.getInLoc();
-            String outputFile = util.getOutLoc();
+            if(conf.equalsIgnoreCase("y")){
+                inputFile = util.getInLoc();
+                outputFile = util.getOutLoc();
+            }
+            else if(conf.equalsIgnoreCase("n")){
+                inputFile = "asg1_sample.csv";
+                outputFile = "output.txt";
+                System.out.println("\nInput file is set to \"" + inputFile +"\" All the data will taken from this csv file. Make sure you have this file in your present directory. :)");
+                System.out.println("\nOutput file is set to \"" + outputFile + "\" All the output will be stored in this file.");
+            }
 
             while(true){
                 int choice = util.getOpType();
@@ -117,7 +136,7 @@ public class OperationsInCSV {
                         while (!ch.equalsIgnoreCase("c") && !ch.equalsIgnoreCase("t") && !ch.equalsIgnoreCase("both")) {
                             ch = scanner.nextLine().trim();
                             if (!ch.equalsIgnoreCase("c") && !ch.equalsIgnoreCase("t") && !ch.equalsIgnoreCase("both")) {
-                                System.out.println("Choose the correct option please!");
+                                System.out.println("Choose the correct option. Please try again!");
                             }
                         }
                         System.out.println("Enter the country name to modify: ");
