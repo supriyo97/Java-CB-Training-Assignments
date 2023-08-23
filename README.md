@@ -47,3 +47,5 @@ This branch has the solution of Assignment 1 of Java training. This application 
 - The application uses the `Utility.java` class to get user input and choices.
 - The application works with the `asg1_sample.csv` file provided. Make sure to keep it in the same directory.
 - You can review and modify the source code in `OperationsInCSV.java` as needed.
+- For this program, duplicate entries are allowed.
+- No null entries allowed while taking input. Even though you try to give the empty space or invalid entry, it will warn you.
