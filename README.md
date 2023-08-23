@@ -7,7 +7,7 @@ This branch has the solution of Assignment 1 of Java training. This application 
 - `asg1_sample.csv`: Sample CSV file containing initial data (Country Name, Temperature in degrees).
 - `ConvertedCSV.txt`: Output file containing converted temperature data in Fahrenheit.
 - `Manifest.txt`: Manifest file required for creating the JAR file.
-- `MyCSVApp.jar`: JAR file of the application that can be run directly.
+- `MyApp.jar`: JAR file of the application that can be run directly.
 - `OperationsInCSV.java`: Contains the main logic for CSV file operations.
 - `SortedCSV.txt`: Output file containing sorted CSV data.
 - `Utility.java`: Contains utility methods for input and choices.
@@ -27,8 +27,9 @@ This branch has the solution of Assignment 1 of Java training. This application 
 ### Using the JAR File
 
 1. Open a terminal or command prompt.
-2. Navigate to the directory containing the JAR file (`MyCSVApp.jar`).
-3. Run the application using the following command: ``` java -jar MyCSVApp.jar ```
+2. Navigate to the directory containing the JAR file (`MyApp.jar`).
+3. Run the application using the following command: ``` java -jar MyApp.jar ```
+4. Note : ```MyCSVApp.jar``` might not work. So use ```MyApp.jar``` instead.
 
 ## Usage Instructions
 
