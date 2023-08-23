@@ -1,0 +1,101 @@
+Input file content:
+
+Country Name,Temprature in degrees
+India,37
+US,10
+Bhutan,18
+France,22.0
+Sri Lanka,37
+Hong Kong,13.0
+Italy 5.0
+
+=======================================
+
+Test case ID: 1
+Test scenario: passing null/empty value to country/temperature at the time of add operation
+input country name: ""
+input temperature: ""
+Expected output: Country name and temperature can not be empty!
+Actual output: Country name temperature can not be empty! Give me a valid country name.
+
+=======================================
+
+Test case ID: 2
+Test scenario: Checking for case sensitivity at the of temperature modification of France
+input country name: france
+input temperature: 23
+Expected output: France,23
+Actual output: France,23
+
+=======================================
+
+Test case ID: 3
+Test scenario: Checking for case sensitivity and empty value to the country name at the time of deletion
+input country name: bhutan
+Expected output: 
+India,37
+US,10
+France,22.0
+Sri Lanka,37
+Hong Kong,13.0
+Italy 5.0
+
+Actual output: 
+India,37
+US,10
+France,22.0
+Sri Lanka,37
+Hong Kong,13.0
+Italy 5.0
+
+=======================================
+
+Test case ID: 4
+Test scenario: Sorting on basis of country name
+Expected output: 
+Country Name      Temperature in Degrees(C)
+Bhutan                  18.0
+France                  22.0
+Hong Kong                  13.0
+India                  37.0
+Italy                  5.0
+Sri Lanka                  37.0
+US                  10.0
+
+Actual output: 
+Country Name      Temperature in Degrees(C)
+Bhutan                  18.0
+France                  22.0
+Hong Kong                  13.0
+India                  37.0
+Italy                  5.0
+Sri Lanka                  37.0
+US                  10.0
+
+=======================================
+
+=======================================
+
+Test case ID: 5
+Test scenario: Convert temperature to Fahrenheit
+Expected output: 
+Country Name      Temperature in Degrees(F)
+India                  98.6
+US                  50.0
+Bhutan                  64.4
+France                  71.6
+Sri Lanka                  98.6
+Hong Kong                  55.4
+Italy                  4
+
+Actual output: 
+Country Name      Temperature in Degrees(F)
+India                  98.6
+US                  50.0
+Bhutan                  64.4
+France                  71.6
+Sri Lanka                  98.6
+Hong Kong                  55.4
+Italy                  4
+
+=======================================
