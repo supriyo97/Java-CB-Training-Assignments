@@ -29,7 +29,18 @@ Actual output: France,23
 
 =======================================
 
+=======================================
+
 Test case ID: 3
+Test scenario: Checking for trimming of spaces
+input country name:     France
+input temperature:      23
+Expected output: France,23
+Actual output: France,23
+
+=======================================
+
+Test case ID: 4
 Test scenario: Checking for case sensitivity and empty value to the country name at the time of deletion
 input country name: bhutan
 Expected output: 
@@ -50,7 +61,7 @@ Italy 5.0
 
 =======================================
 
-Test case ID: 4
+Test case ID: 5
 Test scenario: Sorting on basis of country name
 Expected output: 
 Country Name      Temperature in Degrees(C)
@@ -76,7 +87,7 @@ US                  10.0
 
 =======================================
 
-Test case ID: 5
+Test case ID: 6
 Test scenario: Convert temperature to Fahrenheit
 Expected output: 
 Country Name      Temperature in Degrees(F)
